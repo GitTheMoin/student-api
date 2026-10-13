@@ -1,5 +1,7 @@
 const Student = require("../models/Student");
 
+console.log(typeof Student, Student);
+
 const FIELDS = ["studentId", "name", "email", "department", "semester", "contact"];
 
 // Copy only allowed fields from the request body
